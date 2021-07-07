@@ -51,6 +51,7 @@ html {
 header {
     text-align: center;
     margin-bottom: 10px;
+    user-select: none;
 }
 
 header h4 {
@@ -78,6 +79,9 @@ header h2 {
     background-color: #333;
     background-size: cover;
     margin: auto;
+}
+.cd-thumb:hover {
+    cursor: pointer;
 }
 
 /* CONTROL */
@@ -152,6 +156,10 @@ header h2 {
     background-color: var(--primary-color);
 }
 
+.song:hover{
+    cursor: pointer;
+}
+
 .song:active {
     opacity: 0.8;
 }
@@ -187,4 +195,8 @@ header h2 {
     padding: 16px 8px;
     color: #999;
     font-size: 18px;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
