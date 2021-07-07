@@ -25,24 +25,24 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
-            name: "Click Pow Get Down",
-            singer: "Raftaar x Fortnite",
-            path: "music/song1.mp3",
-            image: "https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg"
+            name: "7 Years",
+            singer: "Lukas Graham",
+            path: "music/7Years.mp3",
+            image: "https://is3-ssl.mzstatic.com/image/thumb/Music69/v4/1f/57/08/1f57082e-ee7e-dcb7-a73e-ba1f3468211d/093624920496.jpg/500x500bb.webp"
         },
         {
-            name: "Tu Phir Se Aana",
-            singer: "Raftaar x Salim Merchant x Karma",
-            path: "music/song2.mp3",
+            name: "Cheating on You",
+            singer: "Charlie Puth",
+            path: "music/Cheating on You Lyrics_320kbps.mp3",
             image:
-                "https://1.bp.blogspot.com/-kX21dGUuTdM/X85ij1SBeEI/AAAAAAAAKK4/feboCtDKkls19cZw3glZWRdJ6J8alCm-gCNcBGAsYHQ/s16000/Tu%2BAana%2BPhir%2BSe%2BRap%2BSong%2BLyrics%2BBy%2BRaftaar.jpg"
+                "https://i1.sndcdn.com/artworks-000606602386-58veao-t500x500.jpg"
         },
         {
-            name: "Naachne Ka Shaunq",
-            singer: "Raftaar x Brobha V",
+            name: "Peaches",
+            singer: "Justin Bieber",
             path:
-                "music/song1.mp3",
-            image: "https://i.ytimg.com/vi/QvswgfLDuPg/maxresdefault.jpg"
+                "music/peaches.mp3",
+            image: "https://i1.sndcdn.com/artworks-boUvTeTEft8V0b2G-8spb0A-t500x500.jpg"
         },
         {
             name: "Mantoiyat",
@@ -51,28 +51,6 @@ const app = {
             image:
                 "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
         },
-        {
-            name: "Aage Chal",
-            singer: "Raftaar",
-            path: "music/song1.mp3",
-            image:
-                "https://a10.gaanacdn.com/images/albums/72/3019572/crop_480x480_3019572.jpg"
-        },
-        {
-            name: "Damn",
-            singer: "Raftaar x kr$na",
-            path:
-                "music/song2.mp3",
-            image:
-                "https://filmisongs.xyz/wp-content/uploads/2020/07/Damn-Song-Raftaar-KrNa.jpg"
-        },
-        {
-            name: "Feeling You",
-            singer: "Raftaar x Harjas",
-            path: "music/song1.mp3",
-            image:
-                "https://a10.gaanacdn.com/gn_img/albums/YoEWlabzXB/oEWlj5gYKz/size_xxl_1586752323.webp"
-        }
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
