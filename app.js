@@ -45,11 +45,32 @@ const app = {
             image: "https://i1.sndcdn.com/artworks-boUvTeTEft8V0b2G-8spb0A-t500x500.jpg"
         },
         {
-            name: "Mantoiyat",
-            singer: "Raftaar x Nawazuddin Siddiqui",
-            path: "music/song2.mp3",
+            name: "Girls Like You",
+            singer: "Maroon 5 ft. Cardi B",
+            path: "music/girls_like_you.mp3",
             image:
-                "https://a10.gaanacdn.com/images/song/39/24225939/crop_480x480_1536749130.jpg"
+                "https://i1.sndcdn.com/artworks-Q4YpEfYqUak25yQa-bWezrg-t500x500.jpg"
+        },
+        {
+            name: "Happy For You",
+            singer: "Lukas Graham ft. Vu",
+            path: "music/lukas_graham_happy_for_you_feat_vu_performance_video_6462074145644287853.mp3",
+            image:
+                "https://i.ytimg.com/vi/mf4upAPwHEo/hqdefault.jpg?"
+        },
+        {
+            name: "MEAN It",
+            singer: "Lauv & LANY",
+            path: "music/lauv_lany_mean_it_lyrics.mp3",
+            image:
+                "https://avatar-ex-swe.nixcdn.com/song/2019/11/14/e/3/1/6/1573698962727_640.jpg"
+        },
+        {
+            name: "10000 Hours",
+            singer: "Jungkook (BTS)",
+            path: "music/bts_jungkook_10000_hours_full_ver_lyrics_-8617717337001492207.mp3",
+            image:
+                "https://i.ytimg.com/vi/6-Q36XoHlEI/maxresdefault.jpg"
         },
     ],
     setConfig: function (key, value) {
