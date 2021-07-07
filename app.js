@@ -86,6 +86,13 @@ const app = {
             image:
                 "https://avatar-ex-swe.nixcdn.com/playlist/2013/11/06/c/c/a/8/1383717171089_500.jpg"
         },
+        {
+            name: "Closer",
+            singer: "The Chainsmokers",
+            path: "music/the_chainsmokers_closer_lyrics_ft_halsey_5382140997956059747.mp3",
+            image:
+                "https://upload.wikimedia.org/wikipedia/vi/a/a5/Closer_%28featuring_Halsey%29_%28Official_Single_Cover%29_by_The_Chainsmokers.png"
+        },
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
