@@ -72,6 +72,20 @@ const app = {
             image:
                 "https://i.ytimg.com/vi/6-Q36XoHlEI/maxresdefault.jpg"
         },
+        {
+            name: "Let Her Go",
+            singer: "Passenger",
+            path: "music/passenger_let_her_go_lyrics_6445739323343692100.mp3",
+            image:
+                "https://i.ytimg.com/vi/EX7oWSbVbGY/hqdefault.jpg?"
+        },
+        {
+            name: "What Are Words",
+            singer: "Chris Medina",
+            path: "music/what_are_words_chris_medina_lyrics_-8747535439467037846.mp3",
+            image:
+                "https://avatar-ex-swe.nixcdn.com/playlist/2013/11/06/c/c/a/8/1383717171089_500.jpg"
+        },
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
