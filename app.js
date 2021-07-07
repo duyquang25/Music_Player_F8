@@ -93,6 +93,13 @@ const app = {
             image:
                 "https://upload.wikimedia.org/wikipedia/vi/a/a5/Closer_%28featuring_Halsey%29_%28Official_Single_Cover%29_by_The_Chainsmokers.png"
         },
+        {
+            name: "We Don't Talk Anymore",
+            singer: "Charlie Puth ft. Selena Gomez",
+            path: "music/charlie_puth_we_don_t_talk_anymore_lyrics_feat_selena_gomez_-4202526501292096840.mp3",
+            image:
+                "https://thenewsmexico.com/wp-content/uploads/2019/06/image5-12.jpg"
+        },
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
