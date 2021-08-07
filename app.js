@@ -100,6 +100,13 @@ const app = {
             image:
                 "https://thenewsmexico.com/wp-content/uploads/2019/06/image5-12.jpg"
         },
+        {
+            name: "Totoo",
+            singer: "Masew",
+            path: "music/nhac_dam_cuoi_mixi_city_masiu_-4105305789908939866.mp3",
+            image:
+                "https://thenewsmexico.com/wp-content/uploads/2019/06/image5-12.jpg"
+        },
     ],
     setConfig: function (key, value) {
         this.config[key] = value;
